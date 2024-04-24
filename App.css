@@ -1,0 +1,90 @@
+*{margin:15px;
+  padding:5px;
+
+  box-sizing: border-box;
+}
+
+body{
+background-color:grey;
+
+margin-top:50px;
+}
+
+main{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+h1{
+  background-color: black;
+  color:white;
+  padding:12px;
+  width:101%;
+  margin-top: -1%;
+  padding-bottom: 14px;;
+  text-align: center;
+
+}
+
+.input-section{
+background-color:lightgray;
+width:50%;
+text-align: center;
+border:2px solid black;
+}
+
+.slider-output{
+  font-size: larger;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline solid;
+
+
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 10px;
+  background-color: blue; 
+  border-radius: 5px;
+  border:2px dotted lightblue;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: blue; 
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.output-section{
+  font-size: larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline solid;
+}
+
+.output{
+  font-size:larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+  font-weight: bolder;
+  border:2px solid grey;
+  width:10%;
+  text-align: center;
+}
